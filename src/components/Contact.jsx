@@ -1,6 +1,7 @@
 import React from 'react'
 import { toast } from 'react-toastify';
 import { motion } from "motion/react"
+const accessKey = import.meta.env.VITE_ACCESS_KEY;
 const Contact = () => {
     const [result, setResult] = React.useState("");
 
@@ -9,7 +10,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "98509978-6710-4ad4-b380-7e14f5f9f0cd");
+    formData.append("access_key", accessKey);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { motion } from "motion/react"
+import { assets } from '../assets/assets';
 const Header = () => {
   return (
     <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden' 
-    style={{backgroundImage: "url('/header_img.png')"}} id='Header'>
+    style={{backgroundImage: `url(${assets.header_img})`}} id='Header'>
       <Navbar/>
       <motion.div 
       initial= {{opacity:0, y:100}}
