@@ -36,7 +36,7 @@ const Contact = () => {
       whileInView={{opacity:1, x:0}}
       viewport={{once:true}}
     className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='Contact'>
-      <h1 className='text-2xl sm:text-44xl font-bold mb-2 text-center'>Contact<span className='underline underline-offset-4 decoration-1 under font-light'>
+      <h1 className='text-2xl sm:text-44xl font-bold mb-2 text-center'>Contact <span className='underline underline-offset-4 decoration-1 under font-light'>
         with us</span></h1>
       <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>Real Stories from Those Who Found Home With Us </p>
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>
