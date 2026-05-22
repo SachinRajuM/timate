@@ -1,5 +1,3 @@
-# Agent Guide: Estate Portfolio
-
 ## Overview
 **Estate** is a React portfolio website built with Vite, Tailwind CSS, and animations. It's a single-page application showcasing real estate projects with sections for Header, About, Projects, Testimonials, and Contact.
 
